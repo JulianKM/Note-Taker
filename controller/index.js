@@ -11,7 +11,7 @@ router.get("/notes", (req, res) => {
 });
 
 
-const itemRoutes = require("./itemscontrollers");
+const itemRoutes = require("./controller");
 router.use("/api/notes", itemRoutes);
 
 module.exports = router;
